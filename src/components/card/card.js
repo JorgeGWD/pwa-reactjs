@@ -3,10 +3,12 @@ import { fetchData } from '../../services/fetchData'
 import './card.css'
 
 export const Card = () => {
+
     const [characters, setCharacters] = useState([])
+    const requestData = 'character'
 
     useEffect(() => {
-        fetchData(setCharacters)
+        fetchData({setCharacters, requestData})
     }, [])
 
     return (
