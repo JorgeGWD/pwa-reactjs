@@ -1,0 +1,10 @@
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.detail {
+  display: flex;
+  gap: 40px;
+}/*# sourceMappingURL=details.css.map */
