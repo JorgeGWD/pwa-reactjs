@@ -10,7 +10,7 @@ const router = createBrowserRouter([
     errorElement: <h1>Error</h1>
   },
   {
-    path: '/character-details',
+    path: '/character-details/:id',
     element: <Details />
   }
 ]);
