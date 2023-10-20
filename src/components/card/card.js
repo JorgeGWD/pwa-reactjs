@@ -9,13 +9,25 @@ export const Card = () => {
     const [pageNumber, setPageNumber] = useState(1)
     const requestData = 'character'
 
-    const loadMoreCharacters = () => {
+    const getCharacters = async () => {
+        const response = await fetchData({
+            requestData, page: pageNumber
+        })
+        setCharacters(response)
+    }
+
+    const loadMoreCharacters = async () => {
+        const response = await fetchData({
+            requestData, page: pageNumber + 1
+        })
+        const oldData = characters
+        setCharacters([...oldData, ...response])
         setPageNumber(prevPageNumber => prevPageNumber + 1)
     }
 
     useEffect(() => {
-        fetchData({setCharacters, requestData, page: pageNumber})
-    }, [pageNumber])
+        getCharacters()
+    }, [])
 
 
     return (
