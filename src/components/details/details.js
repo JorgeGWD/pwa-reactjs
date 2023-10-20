@@ -23,18 +23,20 @@ export const Details = () => {
     return (
         <main className='details'>
         <h1>Character Details</h1>
-        {
-            character.map((character) => (
-                <section className='detail' key={character.id}>
-                    <img src={character.image} alt={character.name} />
-                    <article>
-                        <h2>{character.name}</h2>
-                        <h3>Species: {character.species}</h3>
-                        <h3>Gender: {character.gender}</h3>
+        <section className='detail'>
+            {
+                character.map((character) => (
+                    <article className='detail__card' key={character.id}>
+                        <img src={character.image} alt={character.name} />
+                        <div className='detail__card-info'>
+                            <h2>{character.name}</h2>
+                            <h3>Species: {character.species}</h3>
+                            <h3>Gender: {character.gender}</h3>
+                        </div>
                     </article>
-                </section>
-            ))
-        }
+                ))
+            }
+        </section>
         </main>
     );
 };
