@@ -1,9 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 .details {
   display: flex;
   flex-direction: column;
   gap: 40px;
 }
+.details h1 {
+  color: #f1f1f1;
+  font-family: "Montserrat", sans-serif;
+}
 
+.detail {
+  color: #f1f1f1;
+}
 .detail__card {
   display: flex;
   gap: 40px;

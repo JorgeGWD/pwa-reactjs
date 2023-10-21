@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 button {
   display: flex;
   align-self: center;
@@ -10,7 +11,7 @@ button {
   cursor: pointer;
 }
 button.btn-principal {
-  color: #ffffff;
-  background-color: #EFA693;
-  border: 1px solid #EFA693;
+  color: #f1f1f1;
+  background-color: #A76F6F;
+  border: 1px solid #A76F6F;
 }/*# sourceMappingURL=button.css.map */
