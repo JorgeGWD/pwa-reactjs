@@ -9,7 +9,14 @@
     background-repeat: no-repeat
     background-size: contain
     background-position: center
+    animation: rotateImage 10s infinite linear
     h1
         font-family: $title-principal
         font-weight: bolder
         color: $color-principal
+
+@keyframes rotateImage 
+    0%
+        transform: rotate(0deg)
+    100%
+        transform: rotate(360deg)

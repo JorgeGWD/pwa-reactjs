@@ -8,9 +8,19 @@
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
+  animation: rotateImage 10s infinite linear;
 }
 .error-404 h1 {
   font-family: "Montserrat", sans-serif;
   font-weight: bolder;
   color: #2D4356;
+}
+
+@keyframes rotateImage {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }/*# sourceMappingURL=404.css.map */
