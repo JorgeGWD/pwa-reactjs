@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+.error-404 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("../../../assets/images/portal-404.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.error-404 h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  color: #2D4356;
+}/*# sourceMappingURL=404.css.map */
