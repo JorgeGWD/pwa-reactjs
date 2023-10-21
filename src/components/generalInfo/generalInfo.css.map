@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../assets/styles/variables.sass","generalInfo.sass","generalInfo.css"],"names":[],"mappings":"AAEQ,+EAAA;ACAR;EACI,aAAA;EACA,kBAAA;EACA,aAAA;EACA,yBDIU;AEJd;ADCI;EACI,WAAA;EACA,iBAAA;ACCR;;ADCA;EAEQ;IACI,WAAA;ECCV;AACF;ADAA;EAEQ;IACI,WAAA;ECCV;AACF","file":"generalInfo.css"}

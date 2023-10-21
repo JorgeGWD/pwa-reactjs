@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+.general-info {
+  display: flex;
+  align-self: center;
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+.general-info__container {
+  width: 40vw;
+  min-height: 300px;
+}
+
+@media (max-width: 1024px) {
+  .general-info__container {
+    width: 90vw;
+  }
+}
+@media (max-width: 645px) {
+  .general-info__container {
+    width: 80vw;
+  }
+}/*# sourceMappingURL=generalInfo.css.map */
