@@ -1,0 +1,16 @@
+button {
+  display: flex;
+  align-self: center;
+  padding: 10px 30px;
+  width: -moz-fit-content;
+  width: fit-content;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+button.btn-principal {
+  color: #ffffff;
+  background-color: #EFA693;
+  border: 1px solid #EFA693;
+}/*# sourceMappingURL=button.css.map */
