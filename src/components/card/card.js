@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react'
 import { fetchData } from '../../services/fetchData'
 import { Link } from 'react-router-dom'
-import './card.css'
 import { Button } from '../common/button/button'
+import './card.css'
 
 export const Card = () => {
 
@@ -28,6 +28,7 @@ export const Card = () => {
 
     useEffect(() => {
         getCharacters()
+        document.title = 'Home | Characters'
     }, [])
 
 
