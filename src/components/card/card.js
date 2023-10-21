@@ -1,8 +1,8 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react'
 import { fetchData } from '../../services/fetchData'
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom'
 import './card.css'
-import { Button } from '../common/button/button';
+import { Button } from '../common/button/button'
 
 export const Card = () => {
 
