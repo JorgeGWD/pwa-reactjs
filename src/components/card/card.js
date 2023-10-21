@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { fetchData } from '../../services/fetchData'
 import { Link } from 'react-router-dom';
 import './card.css'
+import { Button } from '../common/button/button';
 
 export const Card = () => {
 
@@ -44,7 +45,7 @@ export const Card = () => {
                     ))
                 }
             </section>
-            <button onClick={loadMoreCharacters}>Load More</button>
+            <Button className="btn-principal" text='Load More' onClick={loadMoreCharacters} />
         </main>
     )
 }

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { fetchData } from '../../services/fetchData';
 import { useParams } from 'react-router';
 import './details.css';
+import { Button } from '../common/button/button';
 
 export const Details = () => {
     const [character, setCharacter] = useState([]);
@@ -14,6 +15,10 @@ export const Details = () => {
             id,
         });
         setCharacter(response)
+    }
+
+    const returnPage = () => {
+        window.history.back()
     }
 
     useEffect(() => {
@@ -37,6 +42,7 @@ export const Details = () => {
                 ))
             }
         </section>
+        <Button className='btn-principal' text='Back' onClick={returnPage}/>
         </main>
     );
 };
