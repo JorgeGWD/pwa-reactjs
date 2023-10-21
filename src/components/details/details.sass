@@ -7,6 +7,10 @@
     h1
         color: $color-white
         font-family: $title-principal
+    &__content
+        display: flex
+        justify-content: space-between
+        gap: 60px
 
 .detail
     color: $color-white
@@ -20,6 +24,11 @@
             display: flex
             flex-direction: column
             gap: 20px
+
+@media (max-width: 1024px)
+    .details
+        &__content
+            flex-direction: column
 
 @media (max-width: 425px)
     .detail

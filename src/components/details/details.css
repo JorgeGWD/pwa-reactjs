@@ -8,6 +8,11 @@
   color: #f1f1f1;
   font-family: "Montserrat", sans-serif;
 }
+.details__content {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+}
 
 .detail {
   color: #f1f1f1;
@@ -26,6 +31,11 @@
   gap: 20px;
 }
 
+@media (max-width: 1024px) {
+  .details__content {
+    flex-direction: column;
+  }
+}
 @media (max-width: 425px) {
   .detail__card {
     flex-direction: column;
