@@ -37,11 +37,11 @@ export const Card = () => {
             <section className='card'>
                 {
                     characters.map((character) => (
-                        <Link to={`/character-details/${character.id}`} key={character.id}>
-                            <article >
+                        <article key={character.id}>
+                            <Link to={`/character-details/${character.id}`} >
                                 <img src={character.image} alt={character.name} />
-                            </article>
-                        </Link>
+                            </Link>
+                        </article>
                     ))
                 }
             </section>

@@ -10,6 +10,19 @@
 
 .card
     display: flex
+    flex-direction: row
     flex-wrap: wrap
     justify-content: center
     gap: 15px
+
+@media (max-width: 1024px)
+    .card
+        display: grid
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr))
+        img
+            width: 100%
+            height: auto
+
+@media (max-width: 320px)
+    .card
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr))
