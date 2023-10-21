@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/pwa-reactjs/static/css/main.15714870.css",
-    "main.js": "/pwa-reactjs/static/js/main.76d38422.js",
-    "static/js/787.3fd4cc1a.chunk.js": "/pwa-reactjs/static/js/787.3fd4cc1a.chunk.js",
-    "static/media/portal-404.png": "/pwa-reactjs/static/media/portal-404.0347f924f459eeb99629.png",
-    "service-worker.js": "/pwa-reactjs/service-worker.js",
-    "index.html": "/pwa-reactjs/index.html",
-    "main.15714870.css.map": "/pwa-reactjs/static/css/main.15714870.css.map",
-    "main.76d38422.js.map": "/pwa-reactjs/static/js/main.76d38422.js.map",
-    "787.3fd4cc1a.chunk.js.map": "/pwa-reactjs/static/js/787.3fd4cc1a.chunk.js.map"
+    "main.css": "/static/css/main.63c3239c.css",
+    "main.js": "/static/js/main.6208182f.js",
+    "static/js/787.3fd4cc1a.chunk.js": "/static/js/787.3fd4cc1a.chunk.js",
+    "static/media/portal-404.png": "/static/media/portal-404.0347f924f459eeb99629.png",
+    "service-worker.js": "/service-worker.js",
+    "index.html": "/index.html",
+    "main.63c3239c.css.map": "/static/css/main.63c3239c.css.map",
+    "main.6208182f.js.map": "/static/js/main.6208182f.js.map",
+    "787.3fd4cc1a.chunk.js.map": "/static/js/787.3fd4cc1a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.15714870.css",
-    "static/js/main.76d38422.js"
+    "static/css/main.63c3239c.css",
+    "static/js/main.6208182f.js"
   ]
 }
